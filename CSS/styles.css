@@ -157,6 +157,9 @@ color: var(--SLATE, #434455);
 
 .footer {
     background: var(--NAVY-BLUE, #2E2F42);
+    width: 1440px;
+    height: 312px;
+    flex-shrink: 0;
 }
 .note {
     color: var(--CLOUD, #F4F4FD);
@@ -166,4 +169,5 @@ color: var(--SLATE, #434455);
     font-weight: 400;
     line-height: 24px;
     letter-spacing: 0.32px;
+    
 }
