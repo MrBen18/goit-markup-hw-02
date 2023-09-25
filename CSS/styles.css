@@ -1,4 +1,8 @@
-:root
+:root {
+    --cornflower:#E7E9FC;
+    --white:#FFF;
+    
+}
 
 .top-layout {
     border-bottom: 1px solid var(--CORNFLOWER, #E7E9FC);
