@@ -94,6 +94,15 @@ span {color: var(--NAVY-BLUE, #2E2F42);}
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
 }
 
+
+
+.feature-layout {
+    display: flex;
+    width: 264px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+}
 .feature {
 
     color: var(--NAVY-BLUE, #2E2F42);
@@ -103,6 +112,8 @@ span {color: var(--NAVY-BLUE, #2E2F42);}
     font-weight: 500;
     line-height: 24px;
     letter-spacing: 0.4px;
+    
+    
 }
 
 .description {
@@ -115,25 +126,13 @@ span {color: var(--NAVY-BLUE, #2E2F42);}
     letter-spacing: 0.32px;
 }
 
-.doing {
-    color: var(--NAVY-BLUE, #2E2F42);
-    text-align: center;
-    font-family: Roboto;
-    font-size: 36px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 40px;
-    letter-spacing: 0.72px;
-    text-transform: capitalize;
-}
-
-.image {
+.doing-image {
     display: inline-flex;
     flex-direction: column;
     align-items: flex-start;
 }
 
-.section-head {
+.section-text {
     color: var(--NAVY-BLUE, #2E2F42);
     text-align: center;
     font-family: Roboto;
@@ -143,6 +142,8 @@ span {color: var(--NAVY-BLUE, #2E2F42);}
     line-height: 40px;
     letter-spacing: 0.72px;
     text-transform: capitalize;
+
+ 
 }
 .role {
 color: var(--SLATE, #434455);
@@ -197,4 +198,15 @@ color: var(--SLATE, #434455);
     line-height: 24px;
     letter-spacing: 0.32px;
 
+}
+
+.footer-logo {
+color: var(--CLOUD, #F4F4FD);
+font-family: Raleway;
+font-size: 18px;
+font-style: normal;
+font-weight: 800;
+line-height: 21px;
+letter-spacing: 0.54px;
+text-transform: uppercase;
 }
