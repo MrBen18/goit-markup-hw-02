@@ -2,121 +2,122 @@
     --IRIS: #4D5AE5;
     --NAVY-BLUE: #2E2F42;
     --CLOUD: #F4F4FD;
-    --WHITE: #FFF;
     --SLATE: #434455;
     --OCEAN: #404BBF;
     --WHITE: #FFFFFF;
 }
 
-.logo {
+/*GENERAL STYLES*/
+
+.bullet-list {
+    list-style: none;
+    padding-left: 0;
+
+
+}
+
+/*END OF GENERAL STYLES*/
+
+/*HEADER STYLES*/
+
+header.top-layout {
+}
+.logo-web {
     color: var(--IRIS);
     font-family: Raleway;
     font-size: 1.125;
-    font-style: normal;
     font-weight: 800;
     line-height: 21px;
     letter-spacing: 0.54px;
     text-transform: uppercase;
     text-decoration: none;
-
-    
+   
 }
-.menu{color: var(--NAVY-BLUE);
+.menu{
+    color: var(--NAVY-BLUE);
     font-family: Roboto;
     font-size: 1;
-    font-style: normal;
     font-weight: 500;
     line-height: 24px;
     letter-spacing: 0.32px;
 
 }
 
+.logo {
 
-span {color: var(--NAVY-BLUE);}
+}
+
+.link {
+    text-decoration: none;
+    font-family: Roboto;
+    font-size: 1;
+    letter-spacing: 0.32px;
+    line-height: 24px;
+}
+
+.logo-studio {
+    color: var(--NAVY-BLUE);}
 
 .menu {
 
     color:var(--NAVY-BLUE);
-    font-family: Roboto;
-    font-size: 1;
-    font-style: normal;
     font-weight: 500;
-    line-height: 24px;
-    letter-spacing: 0.32px;
-    text-decoration: none;
-    
 }
 
 .contact-details {
     color: var(--SLATE);
-    font-family: Roboto;
-    font-size: 1;
-    font-style: normal;
     font-weight: 400;
-    line-height: 24px;
-    letter-spacing: 0.32px;
-    text-decoration: none;
 }
 
+/*END OF HEADER STYLES*/
+
+/*MAIN SECTION 1 STYLES*/
 
 .text1 {
     color: var(--WHITE);
     text-align: center;
     font-family: Roboto;
-    font-size: 3.5;
-    font-style: normal;
+    font-size: 56px;
     font-weight: 700;
     line-height: 60px;
     letter-spacing: 1.12px;
-        
+    text-transform: uppercase;
+
 }
 .section1-background {
     background: var(--NAVY-BLUE);
-    width: 1440px;
-    height: 600px;
-    flex-shrink: 0;
+}
 
+.order-layout {
+    cursor: pointer;
+    border-radius: 4px;
+    background: var(--IRIS);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+    padding: 16px 32px;    
 }
 
 .order-text {
     color: var(--WHITE);
     font-family: Roboto;
     font-size: 1;
-    font-style: normal;
     font-weight: 500;
     line-height: 24px;
     letter-spacing: 0.64px;
 }
 
-.order-layout {
-    display: inline-flex;
-    padding: 16px 32px;
-    align-items: flex-start;
-    gap: 10px;
-    border-radius: 4px;
-    background: var(--IRIS);
-    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
-}
+/*END OF MAIN SECTION 1 STYLES*/
+
+/*FEATURE SECTION STYLES*/
 
 
-
-.feature-layout {
-    display: flex;
-    width: 264px;
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 8px;
-}
 .feature {
 
     color: var(--NAVY-BLUE);
     font-family: Roboto;
     font-size: 1.25;
-    font-style: normal;
     font-weight: 500;
     line-height: 24px;
     letter-spacing: 0.4px;
-    
     
 }
 
@@ -124,11 +125,14 @@ span {color: var(--NAVY-BLUE);}
     color: var(--SLATE);
     font-family: Roboto;
     font-size: 1;
-    font-style: normal;
     font-weight: 400;
     line-height: 24px;
     letter-spacing: 0.32px;
 }
+
+/*END OF FEATURE SECTION STYLES*/
+
+
 
 .doing-image {
     display: inline-flex;
@@ -141,7 +145,6 @@ span {color: var(--NAVY-BLUE);}
     text-align: center;
     font-family: Roboto;
     font-size: 2.25;
-    font-style: normal;
     font-weight: 700;
     line-height: 40px;
     letter-spacing: 0.72px;
@@ -151,10 +154,8 @@ span {color: var(--NAVY-BLUE);}
 }
 .role {
 color: var(--SLATE);
-    text-align: center;
     font-family: Roboto;
     font-size: 1;
-    font-style: normal;
     font-weight: 400;
     line-height: 24px;
     letter-spacing: 0.32px;
@@ -162,10 +163,8 @@ color: var(--SLATE);
 
 .hero-name {
     color: var(--NAVY-BLUE);
-    text-align: center;
     font-family: Roboto;
     font-size: 1.25;
-    font-style: normal;
     font-weight: 500;
     line-height: 24px;
     letter-spacing: 0.4px;
@@ -189,15 +188,12 @@ color: var(--SLATE);
 
 .footer {
     background: var(--NAVY-BLUE);
-    width: 1440px;
-    height: 312px;
     flex-shrink: 0;
 }
 .note {
     color: var(--CLOUD, #F4F4FD);
     font-family: Roboto;
     font-size: 1;
-    font-style: normal;
     font-weight: 400;
     line-height: 24px;
     letter-spacing: 0.32px;
@@ -208,7 +204,6 @@ color: var(--SLATE);
 color: var(--CLOUD, #F4F4FD);
 font-family: Raleway;
 font-size: 1.125;
-font-style: normal;
 font-weight: 800;
 line-height: 21px;
 letter-spacing: 0.54px;
