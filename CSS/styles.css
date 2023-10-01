@@ -12,8 +12,6 @@
 .bullet-list {
     list-style: none;
     padding-left: 0;
-
-
 }
 
 /*END OF GENERAL STYLES*/
@@ -133,13 +131,16 @@ header.top-layout {
 /*END OF FEATURE SECTION STYLES*/
 
 
-
+/*WAT U DOIN SECTION STYLES*/
 .doing-image {
     display: inline-flex;
     flex-direction: column;
     align-items: flex-start;
 }
 
+/*END OF WAT U DOIN SECTION STYLES*/
+
+/*TEAM SECTION STYLES*/
 .section-text {
     color: var(--NAVY-BLUE);
     text-align: center;
@@ -170,12 +171,6 @@ color: var(--SLATE);
     letter-spacing: 0.4px;
 }
 
-.doing-image {
-    display: inline-flex;
-    flex-direction: column;
-    align-items: flex-start;
-}
-
 .hero-image{
     display: inline-flex;
     padding-bottom: 0px;
@@ -184,6 +179,8 @@ color: var(--SLATE);
     align-items: center;
     gap: 32px;
 }
+
+/*END OF TEAM SECTION STYLES*/
 
 
 .footer {
