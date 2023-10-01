@@ -1,4 +1,12 @@
-:root
+:root {
+    --IRIS: #4D5AE5;
+    --NAVY-BLUE: #2E2F42;
+    --CLOUD: #F4F4FD;
+    --WHITE: #FFF;
+    --SLATE: #434455;
+    --OCEAN: #404BBF;
+    --WHITE: #FFFFFF;
+}
 
 .top-layout {
     border-bottom: 1px solid var(--CORNFLOWER, #E7E9FC);
